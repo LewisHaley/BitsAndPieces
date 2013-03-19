@@ -1,0 +1,11 @@
+open up models/simple and textures/simple and edit with whatever you want. 
+
+
+
+models have to be triangulated and include normals 
+textures must be tifs (with one f)
+
+
+all names must be kept the same
+
+submit to marc.diluzio@gmail.com and recieve cake (not guarenteed, T&C applies)
