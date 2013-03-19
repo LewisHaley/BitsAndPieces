@@ -1,0 +1,31 @@
+
+/*******************************************************************************
+# Mental Ray Preview Batch Render for Autodesk Maya
+
+# Created by: Lewis Haley (www.lewishaley.co.uk)
+# - lewismhaley@gmail.com
+#
+# Outline
+# - Effectively batch renders through Mental Ray but using Preview render
+# - Useful when batch render stops working
+# - Set up your render settings as usual and plug in the start and end frames
+#
+# Usage/Liscence
+# - This script is free for use by anyone who finds it in their possession
+# - Anyone can edit this script to their own liking (open source, etc)
+# - Redistribution is allowed provided credit is given to the original creator
+# - and any/all persons who modify and which to be mentioned, and that it
+# - remains FREE. Under no circumstances may a fee of any kind be charged for
+# - the ownership, usage, liscencing, or anything else in regards to this script.
+#
+# Version History
+# - Version 1.0 (March 15th 2012)
+# - - Completed all main functions, algorithms, up to working standard
+*******************************************************************************/
+
+int $i = <start>;
+for($i; $i<= <end>;++$i)
+{
+    currentTime $i;
+    Mayatomr -preview;
+}
