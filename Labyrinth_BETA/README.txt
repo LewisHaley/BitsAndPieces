@@ -1,4 +1,4 @@
-Labyrinth is a game made by Marc Di Luzio, Lewis Hayley and Gary Nisbet.
+Labyrinth is a game made by Marc Di Luzio, Lewis Haley and Gary Nisbet.
 It has been produced for our third year Programming assignemnt using NGL, OpenGL and QT, written in c++.
 
 This is a BETA released, primarily for bug testing and feedback.
